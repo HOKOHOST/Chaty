@@ -16,7 +16,6 @@ import {
   IconNorthStar,
 } from "@tabler/icons-react";
 import { useLiveQuery } from "dexie-react-hooks";
-import { Logo } from "../components/Logo";
 import { SettingsModal } from "../components/SettingsModal";
 import { db } from "../db";
 import { config } from "../utils/config";
@@ -29,10 +28,7 @@ export function IndexRoute() {
     <>
       <Center py="xl" sx={{ height: "100%" }}>
         <Container size="sm">
-          <Badge mb="lg">GPT-4 Ready</Badge>
-          <Text>
-            <Logo style={{ maxWidth: 240 }} />
-          </Text>
+          <Badge mb="lg">GPT-4 Turbo</Badge>
           <Text mt={4} size="xl">
             Not just another ChatGPT user-interface!
           </Text>
@@ -67,18 +63,6 @@ export function IndexRoute() {
                   {openAiApiKey ? "Change OpenAI Key" : "Enter OpenAI Key"}
                 </Button>
               </SettingsModal>
-            )}
-            {config.showDownloadLink && !window.todesktop && (
-              <Button
-                component="a"
-                href="https://dl.todesktop.com/230313oyppkw40a"
-                // href="https://download.chatpad.ai/"
-                size="md"
-                variant="outline"
-                leftIcon={<IconCloudDownload size={20} />}
-              >
-                Download Desktop App
-              </Button>
             )}
           </Group>
         </Container>

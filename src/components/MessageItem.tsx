@@ -18,7 +18,6 @@ import remarkGfm from "remark-gfm";
 import { Message } from "../db";
 import "../styles/markdown.scss";
 import { CreatePromptModal } from "./CreatePromptModal";
-import { LogoIcon } from "./Logo";
 import { ScrollIntoView } from "./ScrollIntoView";
 
 export function MessageItem({ message }: { message: Message }) {
