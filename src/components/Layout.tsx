@@ -233,7 +233,6 @@ export function Layout() {
                   <IconBrandGithub size={20} />
                 </ActionIcon>
               </Tooltip>
-              )}
               {config.showFeedbackLink && (
                 <Tooltip label="Give Feedback">
                   <ActionIcon
