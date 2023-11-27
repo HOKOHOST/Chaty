@@ -1,5 +1,5 @@
 {
-    "defaultModel": "gpt-3.5-turbo",
+    "defaultModel": "gpt-4-1106-preview",
     "defaultType": "openai",
     "defaultAuth": "api-key",
     "defaultBase": "",
