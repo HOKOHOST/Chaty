@@ -16,6 +16,7 @@ import {
   IconNorthStar,
 } from "@tabler/icons-react";
 import { useLiveQuery } from "dexie-react-hooks";
+import { Logo } from "../components/Logo";
 import { SettingsModal } from "../components/SettingsModal";
 import { db } from "../db";
 import { config } from "../utils/config";
@@ -28,7 +29,10 @@ export function IndexRoute() {
     <>
       <Center py="xl" sx={{ height: "100%" }}>
         <Container size="sm">
-          <Badge mb="lg">GPT-4 Turbo</Badge>
+          <Badge mb="lg">GPT-4 Ready</Badge>
+          <Text>
+            <Logo style={{ maxWidth: 240 }} />
+          </Text>
           <Text mt={4} size="xl">
             Not just another ChatGPT user-interface!
           </Text>

@@ -200,7 +200,7 @@ export function SettingsModal({ children }: { children: ReactElement }) {
             data={config.availableModels}
           />
           <Alert color="orange" title="Warning">
-            The displayed cost does not count user input. Right now it only show the output cost.
+            The displayed cost does not include user input. Right now it only show the output cost.
           </Alert>
           <Select
             label="OpenAI Auth (Custom Only)"
