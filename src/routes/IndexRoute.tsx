@@ -74,21 +74,9 @@ export function IndexRoute() {
 
 const features = [
   {
-    icon: IconCurrencyDollar,
-    title: "Free and open source",
-    description:
-      "This app is provided for free and the source code is available on GitHub.",
-  },
-  {
-    icon: IconLock,
-    title: "Privacy focused",
-    description:
-      "No tracking, no cookies, no bullshit. All your data is stored locally.",
-  },
-  {
     icon: IconNorthStar,
-    title: "Best experience",
+    title: "GPT4 Turbo Ready",
     description:
-      "Crafted with love and care to provide the best experience possible.",
+      "Access the latest GPT4 Turbo, a cheaper but stronger API model.",
   },
 ];
